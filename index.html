@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+        <title>
+            Agrosmart | Atención
+        </title>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'/>
+        <meta http-equiv="refresh" content="30; url=https://app.agrosmart.cl/">
+        <style>
+            /* Reset */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                background-image: url("assets/img/agrosmart.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                height: 100vh;
+                font-family: 'Montserrat', sans-serif;
+            }
+            /* Servicios */
+            .services {
+                padding: 80px 20px;
+                text-align: center;
+            }
+            .services h3 {
+                font-size: 2em;
+                margin-bottom: 40px;
+            }
+            .service-cards {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                box-sizing: border-box;
+            }
+            .card {
+                background-color: #f8f8f8;
+                padding: 25px;
+                border-radius: 15px;
+                box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+                transition: transform 0.3s, box-shadow 0.3s;
+                flex: 0 0 calc(30% - 5px);
+                box-sizing: border-box;
+                margin: 20px;
+            }
+            /* Hero */
+            .logoCentral {
+                max-width: 100%;
+            }
+            /* Responsive */
+            @media (max-width: 768px) {
+                .service-cards {
+                    display: block;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section class="services fade-in" id="servicios">
+            <div class="service-cards">
+                <div class="card">
+                    <img class="logoCentral" src="https://agrosmart.blob.core.windows.net/agrosmart/img/logo_no_slogan_lateral_3d.png" alt="Logo">
+                    <h3>¡Atención!</h3>
+                    <p style="font-size: 20px;">
+                        Nuestros sistemas están siendo <b>afectados por una intermitencia</b>.
+                        <br><br>
+                        Estamos investigando el origen del problema para resolverlo a la brevedad.
+                        <br><br>
+                        Lamentamos los inconvenientes que esto pueda provocar.
+                        <br><br>
+                        Atentamente
+                        <br><br>
+                        <b>Equipo Agrosmart</b>
+                    </p>
+                    <br>
+                    <p>
+                        <b>Esta página se recargará automáticamente cada 30 segundos para verificar el estado del sistema.</b>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
